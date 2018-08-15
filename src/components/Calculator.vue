@@ -186,20 +186,27 @@ export default {
   justify-content: center; /* align horizontal */
   align-items: center; /* align vertical */
   background-color: #f2f2f2;
-  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn:active {
+  background-color: #ccc;
 }
 
 .operator {
   background-color: orange;
   color: white;
-  border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-.btn:active {
-  background-color: #ddd;
+.operator:hover {
+  background-color: darkorange;
 }
 
 .operator:active {
-  background-color: darkorange;
+  background-color: #EF6C00;
 }
 </style>
